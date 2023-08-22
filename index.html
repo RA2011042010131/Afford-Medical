@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trains Schedule</title>
+  <style>
+    /* Reset some default browser styles */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0000;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .page-header {
+      background-color: #008bff;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .page-content {
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: orange;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .card-header {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-body {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-body .train-info {
+      flex-grow: 1;
+      margin-right: 20px;
+    }
+
+    .card-body .train-info h2 {
+      margin-bottom: 10px;
+    }
+
+    .card-body .train-info p {
+      font-size: 1.1rem;
+      color: #777;
+    }
+
+    .card-body .actions {
+      text-align: right;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      padding: 8px 15px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>Trains Schedule</h1>
+    </div>
+    <div class="page-content">
+      <div class="card">
+        <div class="card-header">Train Name</div>
+        <div class="card-body">
+          <div class="train-info">
+            <h2>Chennai Exp</h2>
+            <p>Departure Time: 21:35</p>
+            <!-- Other train details -->
+          </div>
+          <div class="actions">
+            <button class="button">View Details</button>
+          </div>
+        </div>
+      </div>
+
+          <div class="actions">
+            <button class="button">View Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Train Name</div>
+        <div class="card-body">
+          <div class="train-info">
+            <h2>Delhi Door Hai Exp</h2>
+            <p>Departure Time: 09:45</p>
+            <!-- Other train details -->
+          </div>
+          <div class="actions">
+            <button class="button">View Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- More train cards -->
+    </div>
+  </div>
+</body>
+</html>
